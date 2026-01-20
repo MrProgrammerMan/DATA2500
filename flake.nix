@@ -8,7 +8,11 @@
     perSystem = { config, pkgs, ... }: {
       packages = 
         let 
-          tex = (pkgs.texlive.withPackages (ps: with ps;[ latex-bin latexmk ]));
+          tex = (pkgs.texlive.withPackages (ps: with ps;[ 
+            latexmk
+            scheme-small
+            ps.import
+          ]));
         in {
           oblig1 = pkgs.stdenv.mkDerivation {
             name = "Obligatory assigment 1 - DATA2500";

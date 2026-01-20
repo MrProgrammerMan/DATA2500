@@ -1,9 +1,25 @@
-\input{preamble.tex}
+\documentclass[a4paper,11pt]{article}
 
-\begin{document}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{import}
+
 \title{DATA2500 Obligatorisk oppgave 1}
 \author{Jonas Hazeland Baugerud}
 \date{\today}
+
+\begin{document}
+
 \maketitle
-Hello, world!
+\newpage
+\tableofcontents
+\newpage
+
+\import{tasks}{task1.tex}
+
 \end{document}
