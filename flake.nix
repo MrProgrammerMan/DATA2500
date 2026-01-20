@@ -16,11 +16,12 @@
             buildInputs = [ tex ];
             phases = [ "buildPhase" "installPhase"];
             buildPhase = ''
-              latexmk -pdf -interaction=nonstopmode $src/document.tex
+              cp -r $src/* .
+              latexmk -pdf -interaction=nonstopmode main.tex
             '';
             installPhase = ''
               mkdir -p $out
-              cp document.pdf $out/
+              cp main.pdf $out/
             '';
           };
       };
