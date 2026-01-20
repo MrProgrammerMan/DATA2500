@@ -16,7 +16,7 @@
             buildInputs = [ tex ];
             phases = [ "buildPhase" "installPhase"];
             buildPhase = ''
-              cp -r $src/* .
+              cp -r $src/* . #This is hella dumb, but include doesn't work otherwise
               latexmk -pdf -interaction=nonstopmode main.tex
             '';
             installPhase = ''
