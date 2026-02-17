@@ -1,3 +1,35 @@
 \subsection{Oppgave 5}
 
-TBA
+Dette synes jeg var en utrolig forvirrende oppgave. Kretsen fra oppgave 4 er en helt annen enn den som er gitt i filen for denne oppgaven.
+Den eneste måten jeg klarer å tolke oppgaven slik at den gir mening, er å gå ut ifra at man skal koble opp X, Y, Z, C og S slik at man kan observere den samme oppførselen som i oppgave 4.
+Siden dette er en full adder, er ikke dette mulig uten å kombinere inputs.
+Jeg har tenkt slik:
+\begin{enumerate}
+    \item I kretsen fra oppgave 4 ser vi at F er helt uavhengig av A.
+    \item F er logisk ekvivalent med B.
+    \item C(carry) representerer tallet $10_2$($2_{10}$), og vil kun aktiveres dersom 2 eller flere av inputene X, Y og Z er på.
+    \item Vi kan tenke på A, B og F fra kretsen i oppgave 4 som at A representerer 0 eller 1, B representerer 0 eller 2, of F representerer carry-outputen av summen av A og B.
+    \item I dette tilfellet er F helt uavhengig av A, og logisk ekvivalent med B.
+    \item Etter denne logikken kan vi lage en input B som kobles til X og Y, mens input A kobles til Z. F leses av C, og S er ubrukt.
+\end{enumerate}
+Dette er midt beste forsøk på å forstå poenget med oppgaven. Resultatet ligger under i 4 bilder.
+
+\begin{figure}[H]
+    \includegraphics[width=0.5\textwidth]{../imgs/week4-task5-1.png}
+    \caption{Screenshot av en full adder modifisert til å fungere som kretsen i oppgave 4. A=0, B=0, F=C=0}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=0.5\textwidth]{../imgs/week4-task5-2.png}
+    \caption{Screenshot av en full adder modifisert til å fungere som kretsen i oppgave 4. A=0, B=1, F=C=1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=0.5\textwidth]{../imgs/week4-task5-3.png}
+    \caption{Screenshot av en full adder modifisert til å fungere som kretsen i oppgave 4. A=1, B=0, F=C=0}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=0.5\textwidth]{../imgs/week4-task5-4.png}
+    \caption{Screenshot av en full adder modifisert til å fungere som kretsen i oppgave 4. A=1, B=1, F=C=1}
+\end{figure}
