@@ -1,3 +1,27 @@
 \subsection{Oppgave 4}
 
-TBA
+\begin{figure}[H]
+    \includegraphics[width=0.8\textwidth]{../imgs/week6-task4-1.png}
+    \caption{Screenshot av kommandoene kjørt}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=0.8\textwidth]{../imgs/week6-task4-2.png}
+    \caption{Screenshot av esum.s}
+\end{figure}
+
+Med tanke på resultatet er filene identiske. De er imidlertid ikke like! GCC har oppdaget at funksjonens return-verdi er konstant og har derfor valgt å optimalisere bort hele funksjonen. esum.s returnerer verdien 6 direkte.
+
+\begin{figure}[H]
+    \includegraphics[width=0.8\textwidth]{../imgs/week6-task4-3.png}
+    \caption{Screenshot av esum.s (uoptimalisert)}
+\end{figure}
+
+For å kunne endre verdien har jeg rekompilert esum.c med flaggene -O0, som fjerner de fleste kompilatoroptimaliseringene. Vi kan her se $\$4$ på cmpl-linjen. Dette er den nye maks-verdien i løkken.
+
+\begin{figure}[H]
+    \includegraphics[width=0.8\textwidth]{../imgs/week6-task4-4.png}
+    \caption{Screenshot av kommandoene kjørt}
+\end{figure}
+
+Endringen fungerer, og resultatet er nå 10.
