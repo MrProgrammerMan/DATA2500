@@ -1,4 +1,4 @@
-== Oppgave 29
+== 5.29
 
 Hvis man kun bruker "grep -c", teller en linje med flere forekomster som en.
 

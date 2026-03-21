@@ -1,6 +1,5 @@
 #set page(paper: "a4", margin: 2.5cm)
 #set text(size: 11pt)
-#set heading(numbering: "1.")
 
 #align(center)[
   #text(1.6em, weight: "bold")[DATA2500 Obligatorisk oppgave 1]
@@ -11,20 +10,15 @@
 ]
 
 #pagebreak()
-= Innhold
+= 1. Innhold
 #outline()
 #pagebreak()
 
-#include "tasks/week3.typ"
-#pagebreak()
-#include "tasks/week4.typ"
-#pagebreak()
-#include "tasks/week5.typ"
-#pagebreak()
-#include "tasks/week6.typ"
-#pagebreak()
-#include "tasks/week7.typ"
-#pagebreak()
-#include "tasks/week9.typ"
-#pagebreak()
-#include "tasks/week10.typ"
+#let weeks = (3, 4, 5, 6, 7, 9, 10)
+
+#for (index, week) in weeks.enumerate() {
+  include("tasks/week" + str(week) + ".typ")
+  if index < weeks.len() - 1 {
+    pagebreak()
+  }
+}

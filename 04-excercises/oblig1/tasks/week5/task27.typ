@@ -1,3 +1,3 @@
-== Oppgave 27
+== 5.27
 
 kommandoen "find /  -name "passwd" 2>/dev/null" viser ikke stderr, der linjene med permission denied sendes.

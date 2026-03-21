@@ -1,10 +1,6 @@
-= Uke 9
-#include "week9/task1.typ"
-#include "week9/task2.typ"
-#include "week9/task3.typ"
-#include "week9/task7.typ"
-#include "week9/task10.typ"
-#include "week9/task13.typ"
-#include "week9/task14.typ"
-#include "week9/task15.typ"
-#include "week9/task19.typ"
+= 9.
+#let tasks = (1, 2, 3, 7, 10, 13, 14, 15, 19)
+
+#for task in tasks {
+	include("week9/task" + str(task) + ".typ")
+}

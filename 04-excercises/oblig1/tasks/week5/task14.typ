@@ -1,4 +1,4 @@
-== Oppgave 14
+== 5.14
 
 `uname - a` gir info om OSet.
 

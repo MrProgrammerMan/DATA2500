@@ -1,4 +1,4 @@
-== Oppgave 20
+== 5.20
 
 #figure(image("../../imgs/week5-task20.png", width: 80%), caption: [Screenshot av kommando-output])
 

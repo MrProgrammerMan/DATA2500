@@ -1,4 +1,4 @@
-== Oppgave 36
+== 5.36
 
 Resultater:
 s44: 31iLmi5MuG

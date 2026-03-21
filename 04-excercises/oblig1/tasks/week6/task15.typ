@@ -1,4 +1,4 @@
-== Oppgave 15
+== 6.15
 
 #figure(image("../../imgs/week6-task15-1.png", width: 80%), caption: [Screenshot av scriptet])
 

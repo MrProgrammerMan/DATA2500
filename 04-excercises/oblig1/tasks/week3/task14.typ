@@ -1,4 +1,4 @@
-== Oppgave 14
+== 3.14
 
 Følgende kommando flytter to mapper opp:
 ```

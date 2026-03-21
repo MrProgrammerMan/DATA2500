@@ -1,4 +1,4 @@
-== Oppgave 5
+== 4.5
 
 Dette synes jeg var en utrolig forvirrende oppgave. Kretsen fra oppgave 4 er en helt annen enn den som er gitt i filen for denne oppgaven.
 Den eneste måten jeg klarer å tolke oppgaven slik at den gir mening, er å gå ut ifra at man skal koble opp X, Y, Z, C og S slik at man kan observere den samme oppførselen som i oppgave 4.

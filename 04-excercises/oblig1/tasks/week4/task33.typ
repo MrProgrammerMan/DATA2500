@@ -1,4 +1,4 @@
-== Oppgave 33
+== 4.33
 
 #figure(image("../../imgs/week4-task33-1.png", width: 80%), caption: [Screenshot av scriptet(mitt øverst og ChatGPT sitt nederst)])
 

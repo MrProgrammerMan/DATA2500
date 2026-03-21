@@ -1,4 +1,4 @@
-== Oppgave 22
+== 5.22
 
 Jeg kjørte et uendelig script i en av terminalene jeg brukte og stengte så terminalen i det andre.
 

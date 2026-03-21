@@ -1,4 +1,4 @@
-== Oppgave 15
+== 4.15
 
 Output fra echo-kommandoen blir "redirected" til en fil(istedfor å vises i standart output).
 

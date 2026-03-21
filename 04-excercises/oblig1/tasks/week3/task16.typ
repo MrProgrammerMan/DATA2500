@@ -1,4 +1,4 @@
-== Oppgave 16
+== 3.16
 
 Løsningen er så og si lik.
 

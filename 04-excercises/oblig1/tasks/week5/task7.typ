@@ -1,4 +1,4 @@
-== Oppgave 7
+== 5.7
 
 Ved å endre konstante fra 3 til 2 kjører løkka kun 2 ganger. Vi har da også praktisk tilgang på konstanten 2 til utregningen += 2. Vi endrer her slik at innholdet i register 0 er det som legges til register 3. Resultatet blir 4 og ligger i register 3(R3).
 

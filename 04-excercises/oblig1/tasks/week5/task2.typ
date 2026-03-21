@@ -1,4 +1,4 @@
-== Oppgave 2
+== 5.2
 
 Resultatet av utregningene er vist under.
 

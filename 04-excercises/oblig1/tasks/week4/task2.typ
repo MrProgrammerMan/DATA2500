@@ -1,10 +1,14 @@
-== Oppgave 2
+== 4.2
 
-#table(columns: 4,
-  [carry:], [c], [], [z],
-  [], [], [X], [],
-  [], [], [Y], [],
-  [], [], [S], [],
+#table(
+  columns: 4,
+  stroke: none,
+  align: right,
+  table.hline(y: 3),
+  [#text(fill: red)[carry:]], [#text(fill: red)[c]], [], [#text(fill: red)[z]],
+  [], [], $X$, [],
+  [], [], $Y$, [],
+  [], [], $S$, [],
 )
 
 #figure(caption: [Sannhetsverditabell for $X$, $Y$, $Z$, $S$, $C$])[

@@ -1,4 +1,4 @@
-== Oppgave 21
+== 6.21
 
 Resultater:
 S44: k9Wea4WxnS

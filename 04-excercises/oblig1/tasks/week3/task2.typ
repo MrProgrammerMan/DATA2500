@@ -1,4 +1,4 @@
-== Oppgave 2
+== 3.2
 
 To feil:
 + OR-out skal være på.

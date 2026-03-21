@@ -1,4 +1,4 @@
-== Oppgave 5
+== 5.5
 
 Programmet benytter følgende instruksjoner:
 #include "../../tables/week5-task5.typ"

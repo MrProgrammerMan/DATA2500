@@ -1,4 +1,4 @@
-== Oppgave 1
+== 6.1
 
 -o står for output og endrer navnet på filen som genereres.
 

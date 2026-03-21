@@ -1,4 +1,4 @@
-== Oppgave 9
+== 6.9
 
 #figure(image("../../imgs/week6-task9-1.png", width: 80%), caption: [Screenshot av scriptet])
 

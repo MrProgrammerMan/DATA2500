@@ -1,4 +1,4 @@
-== Oppgave 1
+== 3.1
 
 De to viktigste oppgavene til et operativsystem er:
 + Gi enkel tilgang til ressursene til datamaskinen til programmer.

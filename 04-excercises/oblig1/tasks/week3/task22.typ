@@ -1,4 +1,4 @@
-== Oppgave 22
+== 3.22
 
 KI ga samme svar som jeg fant selv. Imidlertid var det enklere å finne svaret med KI. Et søk på "escape flags shell" ga overraskende ikke svar umiddelbart. KI kan gi svar på hele konteksten som kan spare tid noen ganger.
 

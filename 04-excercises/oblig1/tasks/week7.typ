@@ -1,10 +1,6 @@
-= Uke 7
-#include "week7/task1.typ"
-#include "week7/task2.typ"
-#include "week7/task5.typ"
-#include "week7/task7.typ"
-#include "week7/task9.typ"
-#include "week7/task10.typ"
-#include "week7/task12.typ"
-#include "week7/task17.typ"
-#include "week7/task19.typ"
+= 7.
+#let tasks = (1, 2, 5, 7, 9, 10, 12, 17, 19)
+
+#for task in tasks {
+	include("week7/task" + str(task) + ".typ")
+}
