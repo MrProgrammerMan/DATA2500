@@ -1,0 +1,4 @@
+== Oppgave 3
+
+Resultatet av kretsen er resultatet av AND-porten ELLER b. Dette ser man på den siste porten. Når a er 1 og b er 0, er ingen av disse 1. 0 ELLER 0 er 0.
+#include "../../tables/week3-task3.typ"

@@ -1,0 +1,11 @@
+= Uke 6
+#include "week6/task1.typ"
+#include "week6/task2.typ"
+#include "week6/task4.typ"
+#include "week6/task7.typ"
+#include "week6/task8.typ"
+#include "week6/task9.typ"
+#include "week6/task11.typ"
+#include "week6/task14.typ"
+#include "week6/task15.typ"
+#include "week6/task21.typ"

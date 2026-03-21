@@ -1,0 +1,5 @@
+== Oppgave 1
+
+Den logiske kretsen er en latch. Denne kan lagre en bit med informasjon. Lagringen skjer ved at input-signalet A sendes ut til output. B er en lås. Det vil si at når B skrus av beholder outputen den verdien den tidligere hadde inntil B skrus på igjen. På denne måten kan vi aktivere B, sende et signal på A, deaktivere B, og senere lese av hva A var da vi lagret den.
+
+#figure(image("../../imgs/week5-task1.png", width: 80%), caption: [B er skrudd av, og output er låst. Derfor er det mulig for output å være motsatt av A.])

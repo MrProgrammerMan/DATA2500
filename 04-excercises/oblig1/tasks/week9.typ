@@ -1,0 +1,10 @@
+= Uke 9
+#include "week9/task1.typ"
+#include "week9/task2.typ"
+#include "week9/task3.typ"
+#include "week9/task7.typ"
+#include "week9/task10.typ"
+#include "week9/task13.typ"
+#include "week9/task14.typ"
+#include "week9/task15.typ"
+#include "week9/task19.typ"
