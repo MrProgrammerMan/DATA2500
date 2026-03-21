@@ -58,11 +58,14 @@
               program = pkgs.lib.getExe local-build-script;
             };
           };
-          devShells.default = typixLib.devShell {
-            inherit (sharedArgs) fontPaths virtualPaths;
-            packages = [
-              watch-script
+          devShells.default = pkgs.mkShell {
+            packages = with pkgs; [
+              python3
             ];
+            shellHook = ''
+              python serve.py
+              nix run
+            '';
           };
         };
     };
