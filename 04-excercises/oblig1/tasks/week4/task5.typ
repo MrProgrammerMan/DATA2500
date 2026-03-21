@@ -10,7 +10,6 @@ Jeg har tenkt slik:
 + Vi kan tenke på A, B og F fra kretsen i oppgave 4 som at A representerer 0 eller 1, B representerer 0 eller 2, of F representerer carry-outputen av summen av A og B.
 + I dette tilfellet er F helt uavhengig av A, og logisk ekvivalent med B.
 + Etter denne logikken kan vi lage en input B som kobles til X og Y, mens input A kobles til Z. F leses av C, og S er ubrukt.
-Dette er midt beste forsøk på å forstå poenget med oppgaven. Resultatet ligger under i 4 bilder.
 
 #figure(image("../../imgs/week4-task5-1.png", width: 50%), caption: [Screenshot av en full adder modifisert til å fungere som kretsen i oppgave 4. A=0, B=0, F=C=0])
 

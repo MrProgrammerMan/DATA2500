@@ -63,8 +63,10 @@
               python3
             ];
             shellHook = ''
-              python serve.py
-              nix run
+              python serve.py >/tmp/data2500-serve.log 2>&1 &
+              nix run .#watch >/tmp/data2500-watch.log 2>&1 &
+              echo "Viewer + watch started in background."
+              echo "Logs: /tmp/data2500-serve.log, /tmp/data2500-watch.log"
             '';
           };
         };
