@@ -4,7 +4,7 @@
 #align(center)[
   #text(1.6em, weight: "bold")[DATA2500 Obligatorisk oppgave 1]
   #v(0.6em)
-  Jonas Hazeland Baugerud (jobau8311) & Bjørnar Reime (bjrei3390)
+  Jonas Hazeland Baugerud (jobau8311)
   #v(0.6em)
   #datetime.today().display()
 ]
