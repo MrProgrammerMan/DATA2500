@@ -3,6 +3,7 @@
 #set text(lang: "nb")
 #show link: it => text(fill: rgb("#004183"))[#it]
 #show raw: it => highlight(fill: rgb("#dfdfdf"))[#it]
+#show ref: it => highlight(fill: rgb("#dfdfdf"))[#it]
 
 #align(center)[
   #text(1.6em, weight: "bold")[DATA2500 Obligatorisk oppgave]
