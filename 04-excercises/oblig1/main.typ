@@ -1,12 +1,17 @@
 #set page(paper: "a4", margin: 2.5cm)
 #set text(size: 11pt)
+#set text(lang: "nb")
+#show link: it => text(fill: rgb("#004183"))[#it]
+#show raw: it => highlight(fill: rgb("#dfdfdf"))[#it]
 
 #align(center)[
-  #text(1.6em, weight: "bold")[DATA2500 Obligatorisk oppgave 1]
+  #text(1.6em, weight: "bold")[DATA2500 Obligatorisk oppgave]
+  #v(1.8em)
+  #link("https://github.com/MrProgrammerMan")[Jonas Hazeland Baugerud] (#link("mailto:jobau8311@oslomet.no")[jobau8311\@oslomet.no])
+  #v(1.2em)
+  Rapporten er skrevet i #link("https://typst.app/")[typst] og bygget med #link("https://github.com/loqusion/typix")[typix].
   #v(0.6em)
-  Jonas Hazeland Baugerud (jobau8311)
-  #v(0.6em)
-  #datetime.today().display()
+  Sist endret: #datetime.today().display("[day].[month].[year]")
 ]
 
 #pagebreak()

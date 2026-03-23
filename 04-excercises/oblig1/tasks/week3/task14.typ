@@ -1,6 +1,3 @@
 == 3.14
 
-Følgende kommando flytter to mapper opp:
-```
-cd ../..
-```
+Følgende kommando flytter to mapper opp: ```bash cd ../.. ```

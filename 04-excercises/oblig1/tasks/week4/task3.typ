@@ -1,3 +1,5 @@
 == 4.3
 
-$F = (A and B) or A$
+$$$
+F = (A and B) or A
+$$$
