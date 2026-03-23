@@ -17,6 +17,10 @@
 
 #pagebreak()
 = 1. Innhold
+Denne rapporten inneholder løsninger på alle oppgavene i `DATA2500 Operativsystemer`. De er organisert etter `[ukenummer].[oppgavenummer]`.
+
+Løsningene er mine egne.
+
 #outline()
 #pagebreak()
 
